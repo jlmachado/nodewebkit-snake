@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Snake the game!</title>
+	<link rel="stylesheet" href="assets/css/style.css">
+	<script type="text/javascript" src="assets/script/game.js"></script>
+</head>
+<body onload="carregarJogo();">
+	<div class="canvasContainer">
+		<canvas width="330" height="430"></canvas>
+	</div>	
+	<div class="infoContainer">
+		<div class="record">
+			<h1>Recorde</h1>
+			<div class="recordItem" id="pontosRecorde"><b>Pontos:</b> 123123</div>
+			<div class="recordItem" id="tempoRecorde"><b>Tempo:</b> 10min 47sec</div>
+		</div>
+
+		<div class="dadosPartida">
+			<div id="pontosPartida">123123123</div>
+			<div id="tempoPartida">10min 47sec</div>
+		</div>
+
+		<button id="btnAcao">Reiniciar</button>
+	</div>
+</body>
+</html>

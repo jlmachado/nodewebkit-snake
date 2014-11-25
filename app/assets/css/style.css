@@ -1,0 +1,52 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.canvasContainer {
+	width: 50%;
+	float: left;
+}
+
+.infoContainer {
+	width: 50%;
+	float: right;
+}
+
+canvas {
+	margin: 10px 0 0 10px;
+}
+
+.record h1 {
+	text-align: center;
+}
+
+.recordItem {
+	float: left;
+	width: 50%;
+	text-align: center;
+}
+
+.record {
+	height: 30%
+}
+
+.dadosPartida {
+	text-align: center;
+	height: 40%;
+}
+
+#pontosPartida {
+	font-size: 40px;
+	font-weight: bold;
+}
+
+#tempoPartida {
+	font-size: 30px;
+}
+
+#btnAcao {
+	height: 50px;
+	line-height: 50px;
+	width: 120px;
+}
