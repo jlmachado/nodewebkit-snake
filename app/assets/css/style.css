@@ -5,16 +5,19 @@
 
 .canvasContainer {
 	width: 50%;
+	height: 100%;
 	float: left;
 }
 
 .infoContainer {
 	width: 50%;
+	height: 100%;
 	float: right;
 }
 
 canvas {
 	margin: 10px 0 0 10px;
+	border: 1px solid #000;
 }
 
 .record h1 {

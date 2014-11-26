@@ -9,10 +9,10 @@ var recordContainer;
 var ctx;
 
 // Canvas width (w) e height (h).
-var w = 330,h = 430;
+var w = 990,h = 1290;
 
 // Tamanho padrado do snake.
-var TAMANHO_PADRAO = 10;
+var TAMANHO_PADRAO = 30;
 
 // Direção em que esta se movimentando.
 var direcao;
@@ -51,6 +51,8 @@ function carregarJogo() {
 // Carregando elementos na tela
 function carregarElementos() {
 	canvas = document.getElementsByTagName('canvas')[0];
+	canvas.width = w;
+	canvas.height = h;
 	ctx = canvas.getContext("2d");
 
 	recordePontosContainer = document.getElementById('pontosRecorde');
@@ -71,8 +73,8 @@ function carregarElementos() {
 
 // Atualizando tamanho e posição dos elementos da tela.
 function atualizarTamanho() {
-	canvas.style.width = window.innerWidth / 2 - (TAMANHO_PADRAO * 2) + 'px';
-	canvas.style.height = window.innerHeight - (TAMANHO_PADRAO * 2) + 'px';
+	canvas.style.width = window.innerWidth / 2 - 20 + 'px';
+	canvas.style.height = window.innerHeight - 20 + 'px';
 
 	var infoContainerElem = document.getElementsByClassName('infoContainer')[0];
 	infoContainerElem.style.height = window.innerHeight + "px";

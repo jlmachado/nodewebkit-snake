@@ -9,6 +9,6 @@
 	"author": "João Luiz Machado",
 	"license": "ISC",
 	"window" : {
-		"toolbar" : true
+		"toolbar" : false
 	}
 }
